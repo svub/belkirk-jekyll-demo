@@ -26,6 +26,10 @@ fields:
   name: banner_image
   label: Banner Image
   description: Ideal dimensions 2500px by 1200px
+- type: boolean
+  name: test_toggle_
+  label: 'test toggle '
+  description: toggleing test.
 - type: list
   name: related_posts
   label: Related Posts
@@ -33,7 +37,7 @@ fields:
     use_select: true
     source:
       type: pages
-      section: posts
+      section: ''
 - name: layout
   label: Layout
   type: text
